@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+target/
+build/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+application-local.properties
+
+# IDE settings
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Certificate files
+portfolio-frontend/public/certificate/
